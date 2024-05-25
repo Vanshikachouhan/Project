@@ -1,0 +1,210 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+             header {
+        background-color: rgb(2, 2, 31);
+        color:#fff;
+        padding: 30px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+    }
+    .flight-image {
+            flex: 1; /* Added */
+        }
+
+        .flight-image img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .flight-card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .flight-card h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        .flight-card p {
+            margin: 0;
+        }
+
+        .flight-card .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #009688;
+        }
+
+        .flight-card  {
+            background-color: #dfe9e8;
+            color: #161515;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .flight-card  {
+            background-color: #dfe9e8;
+        }
+        .btn-book {
+            background-color: #009688;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            text-decoration: none; /* Remove default link underline */
+            display: inline-block; /* Ensure the button behaves like a block element */
+        }
+
+        .btn-book:hover {
+            background-color: #00796b;
+        }
+       
+    .logo img {
+        height: 50px;
+        margin-right: 40px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    nav ul li {
+        margin-right: 20px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    footer {
+        text-align: center;
+        padding: 10px 20px;
+        background-color: rgb(2, 2, 31);
+        color: #fff;
+    }
+
+    </style><body>
+            <header>
+                <div class="logo">
+                    <img src="pexels-pixabay-358319.jpg" alt="Airline Logo">
+                    <h1>Your Airline</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="flight.html">Flights</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="index.php">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+    <div class="container">
+        <h2>Available Flights</h2>
+
+        <div class="flight-card">
+            <h3>Flight 1</h3>
+            <p>From: City Bengaluru</p>
+            <p>To: City Chennai</p>
+            <p>Departure Time: 09:00</p>
+            <p>Arrival Time: 11:00</p>
+            <p>Price: <span class="price">₹ 25,000</span></p>
+            <a href="button.php" class="btn-book">Book Now</a>
+        </div>
+      
+  
+        <div class="flight-card">
+            <h3>Flight 2</h3>
+            <p>From: City Jaipur</p>
+            <p>To: City Mumbai</p>
+            <p>Departure Time: 12:00</p>
+            <p>Arrival Time: 14:00</p>
+            <p>Price: <span class="price">₹ 25,500</span></p>
+            <a href="button.php" class="btn-book">Book Now</a>
+        </div>
+       
+        
+        <div class="flight-card">
+            <h3>Flight 3</h3>
+            <p>From: City Ahmedabad</p>
+            <p>To: City Mumbai</p>
+            <p>Departure Time: 14:00</p>
+            <p>Arrival Time: 16:00</p>
+            <p>Price: <span class="price">₹ 25,300</span></p>
+            <a href="button.php" class="btn-book">Book Now</a>
+        </div>
+        
+        <div class="flight-card">
+            <h3>Flight 4</h3>
+            <p>From: City pune</p>
+            <p>To: City Surat</p>
+            <p>Departure Time: 16:00</p>
+            <p>Arrival Time: 18:00</p>
+            <p>Price: <span class="price">₹ 25,200</span></p>
+            <a href="button.php" class="btn-book">Book Now</a>
+        </div>
+        
+        <div class="flight-card">
+            <h3>Flight 5</h3>
+            <p>From: City Bhopal</p>
+            <p>To: City Chennai</p>
+            <p>Departure Time: 12:00</p>
+            <p>Arrival Time: 14:00</p>
+            <p>Price: <span class="price">₹ 30,000</span></p>
+            <a href="button.php" class="btn-book">Book Now</a>
+        </div>
+        
+        <div class="flight-card">
+            <h3>Flight 6</h3>
+            <p>From: City Kolkata</p>
+            <p>To: City Mumbai</p>
+            <p>Departure Time: 18:00</p>
+            <p>Arrival Time: 20:00</p>
+            <p>Price: <span class="price">₹ 25,300</span></p>
+            <a href="button.php" class="btn-book">Book Now</a>
+        </div>
+    </div>
+
+
+            <footer>
+                <p>&copy; 2024 Your Airline. All rights reserved.</p>
+            </footer>
+           
+    </body>
+</html>

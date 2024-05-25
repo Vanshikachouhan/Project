@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+         
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .instructions-section {
+            background-color: #f0f0f0; /* Light grey background */
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .instructions-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .instruction-column {
+            flex-basis: calc(33.33% - 40px); /* Adjust column width */
+            margin: 20px;
+            background-color: rgb(23, 23, 82); /* White background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        
+        .instruction-column h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #f7f5f5; /* Dark text color */
+        }
+        
+        .instruction-column p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #c9c3c3; 
+        }
+     body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background-color:  rgb(2, 2, 31);
+        color:#fff;
+        padding: 30px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 50px;
+        margin-right: 40px;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    nav ul li {
+        margin-right: 20px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    #hero {
+        text-align: center;
+        padding: 100px 20px;
+        background-color: #f0f0f0;
+    }
+    .heroine{
+        background-image: url(qwerty.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+ 
+ 
+    }
+    .tree{
+        padding: 20px;
+        flex: 1;
+        color: #02021e;
+    }
+    
+    
+    .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:rgb(23, 23, 82) ;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-btn:hover {
+  background-color: #0056b3;
+}
+
+    
+    footer {
+        text-align: center;
+        padding: 10px 20px;
+        background-color: rgb(2, 2, 31);
+        color: #fff;
+    }</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Airline - Welcome</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="pexels-pixabay-358319.jpg" alt="Airline Logo">
+            <h1>Your Airline</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="flight.html">Flights</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="index.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Welcome to Your Airline</h2>
+        <p>Explore the world with our comfortable and reliable flights.</p>
+        <a href="flight.html" class="btn">Book Now</a>
+    </section>
+    <section class ="heroine">
+       <div class="tree">
+        <p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </p></div> 
+        
+    </section>
+    <section class="instructions-section">
+        <div class="instructions-container">
+            <div class="instruction-column">
+                <h2>Easy Booking</h2>
+                <p>Book your flights hassle-free with our user-friendly online booking system. Choose your destination, select your preferred dates, and you're ready to go!</p>
+            </div>
+            <div class="instruction-column">
+                <h2>Comfortable Travel</h2>
+                <p>Experience comfort like never before with spacious seating, in-flight entertainment, and delicious meals served during your journey. Sit back, relax, and enjoy the ride.</p>
+            </div>
+            <div class="instruction-column">
+                <h2>Safe and Reliable</h2>
+                <p>Your safety is our top priority. Our experienced pilots and dedicated crew ensure a smooth and secure flight every time. Trust us to get you to your destination safely.</p>
+            </div>
+        </div>
+    </section>
+  
+
+   
+
+    <footer>
+        <p>&copy; 2024 Your Airline. All rights reserved.</p>
+    </footer>
+</body>
+</html>
